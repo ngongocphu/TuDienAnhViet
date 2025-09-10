@@ -4,7 +4,7 @@
     </a>
 </h2>
 <h2 align="center">
-   NETWORK PROGRAMMING
+   Tra Cứu Từ Điển Anh-Việt
 </h2>
 <div align="center">
     <p align="center">
@@ -35,3 +35,7 @@ Hệ thống cho phép người dùng (Client) nhập từ tiếng Anh cần tra
   - Gợi ý từ gần đúng khi nhập sai chính tả.  
   - Hiển thị nhiều nghĩa của từ.  
   - Hỗ trợ tra cứu song ngữ Anh – Việt và Việt – Anh.  
+## 💻 Ngôn ngữ & Công cụ sử dụng  
+
+- ☕ **Java** – Ngôn ngữ lập trình chính để xây dựng ứng dụng Client/Server.  
+- 🖥️ **Eclipse IDE** – Môi trường phát triển tích hợp để viết và quản lý mã nguồn.  
