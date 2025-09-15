@@ -46,13 +46,73 @@ Hệ thống cho phép người dùng (Client) nhập từ tiếng Anh cần tra
 </p>
 
 <p align="center">
-  <em>Hình 1: Giao Diện Đăng Nhập  Hình 2: Ảnh 2 Client chat với Server</em>
+  <em>Hình 1: Giao Diện Đăng Nhập</em>
 </p>
 
 <p align="center">
-  <img src="docs/2.jpg" alt="Ảnh 2" width="300"/>
+  <img src="docs/2.jpg" alt="Ảnh 2" width="800"/>
 </p>
 <p align="center">
   <em> Hình 2: Giao Diện Phần Mềm</em>
 </p>
- 
+ ## 📝 4. Hướng dẫn cài đặt và sử dụng
+
+### 🔧 Yêu cầu hệ thống
+
+- **Java Development Kit (JDK)**: Phiên bản 8 trở lên
+- **Hệ điều hành**: Windows, macOS, hoặc Linux
+- **Môi trường phát triển**: IDE (IntelliJ IDEA, Eclipse, VS Code) hoặc terminal/command prompt
+- **Bộ nhớ**: Tối thiểu 512MB RAM
+- **Dung lượng**: Khoảng 10MB cho mã nguồn và file thực thi
+
+### 📦 Cài đặt và triển khai
+
+#### Bước 1: Chuẩn bị môi trường
+1. **Kiểm tra Java**: Mở terminal/command prompt và chạy:
+   ```bash
+   java -version
+   javac -version
+   ```
+   Đảm bảo cả hai lệnh đều hiển thị phiên bản Java 8 trở lên.
+
+2. **Tải mã nguồn**: Sao chép thư mục `TraCuuTuDienAnhViet` chứa các file:
+   - `MayChuTuDien.java`
+   - `GiaoDienDangNhap.java`
+   - `GiaoDienTuDien.java`
+   - `MayKhachTuDien.java`
+   - `XuLiKhach.java`
+   #### Bước 2: Biên dịch mã nguồn
+1. **Mở terminal** và điều hướng đến thư mục chứa mã nguồn
+2. **Biên dịch các file Java**:
+   ```bash
+   javac UngDungChat_TCP/*.java
+   ```
+3. **Kiểm tra kết quả**: Nếu biên dịch thành công, sẽ tạo ra các file `.class` tương ứng.
+
+#### Bước 3: Chạy ứng dụng
+
+**Khởi động Server:**
+```bash
+java UngDungChat_TCP.Server
+```
+- Server sẽ khởi động trên port mặc định (888)
+- Sẵn sàng nhận yêu cầu tra cứu từ client
+- Server sẽ đọc dữ liệu từ file TuDien.txt
+**Khởi động Client:**
+```bash
+java TraCuuTuDienAnhViet.Client
+```
+- Mở terminal mới cho mỗi client
+- Client sẽ kết nối đến server và hiển thị giao diện tra cứu từ điển
+### 🚀 Sử dụng ứng dụng
+
+1.  Nhập từ cần tra cứu: Gõ từ tiếng Anh vào ô nhập
+2. Xem kết quả: Nghĩa tiếng Việt của từ sẽ hiển thị trên màn hình
+3.Không tìm thấy từ: Nếu từ không có trong từ điển, client sẽ nhận thông báo "Từ không tồn tại trong cơ sở dữ liệu"
+### ⚠️ Lưu ý quan trọng
+
+- Thứ tự khởi động: Luôn chạy Server trước rồi mới chạy Client
+- Port: Đảm bảo port 12345 không bị ứng dụng khác chiếm
+- Firewall: Có thể cần cấu hình firewall để cho phép kết nối
+- Mạng: Server và Client phải cùng mạng hoặc có thể truy cập được IP của nhau
+- Cơ sở dữ liệu từ điển: File TuDien.txt phải tồn tại trong thư mục chứa Server
