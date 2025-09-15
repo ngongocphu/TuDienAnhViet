@@ -38,4 +38,21 @@ Hệ thống cho phép người dùng (Client) nhập từ tiếng Anh cần tra
 ## 💻 Ngôn ngữ & Công cụ sử dụng  
 
 - ☕ **Java** – Ngôn ngữ lập trình chính để xây dựng ứng dụng Client/Server.  
-- 🖥️ **Eclipse IDE** – Môi trường phát triển tích hợp để viết và quản lý mã nguồn.  
+- 🖥️ **Eclipse IDE** – Môi trường phát triển tích hợp để viết và quản lý mã nguồn.
+## 🚀 3. Hình ảnh các chức năng
+
+<p align="center">
+  <img src="docs/1.jpg" alt="Ảnh 1" width="800"/>
+</p>
+
+<p align="center">
+  <em>Hình 1: Giao Diện Đăng Nhập  Hình 2: Ảnh 2 Client chat với Server</em>
+</p>
+
+<p align="center">
+  <img src="docs/2.jpg" alt="Ảnh 2" width="300"/>
+</p>
+<p align="center">
+  <em> Hình 2: Giao Diện Phần Mềm</em>
+</p>
+ 
