@@ -65,7 +65,7 @@ Hệ thống cho phép người dùng (Client) nhập từ tiếng Anh cần tra
 - **Bộ nhớ**: Tối thiểu 512MB RAM
 - **Dung lượng**: Khoảng 10MB cho mã nguồn và file thực thi
 
-### 📦 Cài đặt và triển khai
+## 📝 4. Hướng dẫn cài đặt và sử dụng
 
 #### Bước 1: Chuẩn bị môi trường
 1. **Kiểm tra Java**: Mở terminal/command prompt và chạy:
@@ -116,3 +116,11 @@ java TraCuuTuDienAnhViet.Client
 - Firewall: Có thể cần cấu hình firewall để cho phép kết nối
 - Mạng: Server và Client phải cùng mạng hoặc có thể truy cập được IP của nhau
 - Cơ sở dữ liệu từ điển: File TuDien.txt phải tồn tại trong thư mục chứa Server
+## Thông tin liên hệ  
+Họ tên: Ngô Ngọc Phú.  
+Lớp: CNTT 16-03.  
+Email: ngophu281004@gmail.com.
+
+© 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
+
+---
