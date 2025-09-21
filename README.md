@@ -55,8 +55,6 @@ Hệ thống cho phép người dùng (Client) nhập từ tiếng Anh cần tra
 <p align="center">
   <em> Hình 2: Giao Diện Phần Mềm</em>
 </p>
- ## 📝 4. Hướng dẫn cài đặt và sử dụng
-
 ### 🔧 Yêu cầu hệ thống
 
 - **Java Development Kit (JDK)**: Phiên bản 8 trở lên
